@@ -1,0 +1,27 @@
+﻿@model Ogrenciler
+
+@{
+    ViewBag.Title = "Kayıt Ekleme Form";
+}
+<h2>Kayıt Ekleme Formu</h2>
+<br />
+<br />
+<form action="/Ogrenci/OgrenciEkle" method="post">
+    <label>Ad</label>
+    <br />
+    <input type="text" name="Ad" />
+    <br />
+    <br />
+    <label>Soyad</label>
+    <br />
+    <input type="text" name="Soyad" value="" />
+    <br />
+    <br />
+    <br />
+    <label>Numara</label>
+    <br />
+    <input type="text" name="Numara" value="" />
+    <input type="submit" name="kaydetbuton" value="Kaydet" />
+</form>
+
+
